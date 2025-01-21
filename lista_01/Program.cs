@@ -15,10 +15,14 @@ class Program
         Console.Write("Digite um numero: ");
         int numero = int.Parse(Console.ReadLine());
 
-        if (numero % 2 == 0) {
-        }
+        if (numero % 2 == 0)
+        {
+            Console.WriteLine($"{numero} É um numero par. ");
+        } 
+        else
+        { 
+        Console.Write($"{numero} É um numero impar. ");
 
-        Console.WriteLine($"{numero} É um numero par: ");
-    } 
-        
-        Console.Write
+    }
+}
+}
